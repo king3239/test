@@ -1,0 +1,7 @@
+export type Book = {
+  author: string | null;
+  createdAt: Date;
+  id: string;
+  title: string | null;
+  updatedAt: Date;
+};
